@@ -1,4 +1,3 @@
-import React from "react";
 import { easing } from "maath";
 import { useSnapshot } from "valtio";
 import { useFrame } from "@react-three/fiber";
@@ -11,7 +10,7 @@ const Shirt = () => {
   const { nodes, materials } = useGLTF("/shirt_baked.glb");
 
   const logoTexture = useTexture(snap.logoDecal);
-  const fullTexture = useTexture(snap.fullDecalDecal);
+  const fullTexture = useTexture(snap.fullDecal);
 
   return (
     <group>
