@@ -13,12 +13,12 @@ const CanvasModel = () => {
 
       <Environment preset="city" />
 
-      {/* <CameraRig> */}
-      {/* <Backdrop /> */}
-      <Center>
-        <Shirt />
-      </Center>
-      {/* </CameraRig> */}
+      <CameraRig>
+        {/* <Backdrop /> */}
+        <Center>
+          <Shirt />
+        </Center>
+      </CameraRig>
     </Canvas>
   );
 };
